@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoneyAPP</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Дашборд</string>
+    <string name="nav_transactions">Операции</string>
+    <string name="nav_budget">Бюджет</string>
+    <string name="nav_goals">Цели</string>
+    <string name="nav_analytics">Анализ</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_categories">Категории</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_income">Доходы</string>
+    <string name="dashboard_expenses">Расходы</string>
+    <string name="dashboard_saved">Отложено</string>
+    <string name="dashboard_balance">Остаток</string>
+    <string name="dashboard_savings_rate">Норма сбережений</string>
+    <string name="dashboard_monthly_summary">Помесячная сводка</string>
+    <string name="dashboard_expense_breakdown">Расходы по категориям</string>
+    <string name="dashboard_cumulative_savings">Накопления (нарастающий итог)</string>
+
+    <!-- Transactions -->
+    <string name="transaction_income">Доход</string>
+    <string name="transaction_expense">Расход</string>
+    <string name="transaction_savings">Отложить</string>
+    <string name="transaction_add">Добавить</string>
+    <string name="transaction_edit">Редактировать</string>
+    <string name="transaction_delete">Удалить</string>
+    <string name="transaction_date">Дата</string>
+    <string name="transaction_type">Тип</string>
+    <string name="transaction_category">Категория</string>
+    <string name="transaction_description">Описание</string>
+    <string name="transaction_amount">Сумма</string>
+    <string name="transaction_payment_method">Способ оплаты</string>
+    <string name="transaction_cash">Наличные</string>
+    <string name="transaction_card">Безнал</string>
+    <string name="transaction_tag">Тег</string>
+    <string name="transaction_note">Примечание</string>
+    <string name="transaction_undo">Восстановить</string>
+    <string name="transaction_deleted">Транзакция удалена</string>
+    <string name="transaction_filter">Фильтр</string>
+    <string name="transaction_search">Поиск</string>
+
+    <!-- Budget -->
+    <string name="budget_plan">План</string>
+    <string name="budget_actual">Факт</string>
+    <string name="budget_difference">Разница</string>
+    <string name="budget_percentage">% исполнения</string>
+    <string name="budget_status">Статус</string>
+    <string name="budget_ok">OK</string>
+    <string name="budget_close">Почти</string>
+    <string name="budget_over">Перебор</string>
+    <string name="budget_under">Недобор</string>
+
+    <!-- Goals -->
+    <string name="goal_name">Название</string>
+    <string name="goal_description">Описание</string>
+    <string name="goal_target">Целевая сумма</string>
+    <string name="goal_saved">Накоплено</string>
+    <string name="goal_remaining">Осталось</string>
+    <string name="goal_deadline">Срок</string>
+    <string name="goal_monthly_contribution">Мес. взнос</string>
+    <string name="goal_add_contribution">Внести</string>
+    <string name="goal_create">Создать цель</string>
+    <string name="goal_in_progress">В процессе</string>
+    <string name="goal_completed">Выполнено</string>
+
+    <!-- Analytics -->
+    <string name="analytics_mom">Сравнение с прошлым месяцем</string>
+    <string name="analytics_top_expenses">Топ расходов</string>
+    <string name="analytics_savings_trend">Тренд сбережений</string>
+    <string name="analytics_forecast">Прогноз</string>
+    <string name="analytics_average_monthly">Среднее за месяц</string>
+
+    <!-- Google Sync -->
+    <string name="sync_connect">Подключить Google аккаунт</string>
+    <string name="sync_disconnect">Отключить</string>
+    <string name="sync_connected">Подключено</string>
+    <string name="sync_syncing">Синхронизация…</string>
+    <string name="sync_success">Синхронизировано</string>
+    <string name="sync_error">Ошибка синхронизации</string>
+    <string name="sync_manual">Синхронизировать</string>
+
+    <!-- Excel -->
+    <string name="excel_import">Импорт Excel</string>
+    <string name="excel_export">Экспорт Excel</string>
+    <string name="excel_importing">Импорт…</string>
+    <string name="excel_exporting">Экспорт…</string>
+    <string name="excel_merge">Объединить</string>
+    <string name="excel_replace">Заменить</string>
+    <string name="excel_preview">Предпросмотр</string>
+
+    <!-- Settings -->
+    <string name="settings_username">Имя пользователя</string>
+    <string name="settings_currency">Валюта</string>
+    <string name="settings_google_account">Google аккаунт</string>
+    <string name="settings_spreadsheet_id">ID таблицы</string>
+    <string name="settings_daily_reminder">Ежедневное напоминание</string>
+    <string name="settings_reminder_time">Время напоминания</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_system">Системная</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_theme_dark">Тёмная</string>
+    <string name="settings_backup">Резервная копия</string>
+    <string name="settings_restore">Восстановить</string>
+    <string name="settings_categories">Категории</string>
+    <string name="settings_about">О приложении</string>
+
+    <!-- Categories -->
+    <string name="cat_income_salary">Зарплата</string>
+    <string name="cat_income_overtime">Переработки</string>
+    <string name="cat_income_bonus">Премия</string>
+    <string name="cat_income_other_income">Прочий доход</string>
+    <string name="cat_income_other">Прочее</string>
+    <string name="cat_savings_investments">Инвестиции</string>
+    <string name="cat_expense_food">Продукты</string>
+    <string name="cat_expense_mortgage">Ипотека/Аренда</string>
+    <string name="cat_expense_utilities">ЖКХ</string>
+    <string name="cat_expense_transport">Транспорт</string>
+    <string name="cat_expense_restaurants">Рестораны</string>
+    <string name="cat_expense_health">Здоровье</string>
+    <string name="cat_expense_clothing">Одежда</string>
+    <string name="cat_expense_subscriptions">Подписки</string>
+    <string name="cat_expense_sports">Спорт</string>
+    <string name="cat_expense_education">Образование</string>
+    <string name="cat_expense_gifts">Подарки</string>
+    <string name="cat_expense_entertainment">Развлечения</string>
+    <string name="cat_expense_communication">Связь</string>
+    <string name="cat_expense_services">Услуги</string>
+    <string name="cat_expense_marketplace">Маркетплейсы</string>
+    <string name="cat_expense_bad_habits">Вредные привычки</string>
+    <string name="cat_expense_other">Прочее</string>
+
+    <!-- Notifications -->
+    <string name="notification_reminder_title">Не забудьте записать расходы</string>
+    <string name="notification_reminder_text">Откройте MoneyAPP и добавьте сегодняшние транзакции</string>
+    <string name="notification_sync_title">Синхронизация завершена</string>
+    <string name="notification_sync_text">Данные синхронизированы с Google Таблицами</string>
+
+    <!-- Common -->
+    <string name="common_save">Сохранить</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_delete">Удалить</string>
+    <string name="common_edit">Изменить</string>
+    <string name="common_ok">OK</string>
+    <string name="common_loading">Загрузка…</string>
+    <string name="common_no_data">Нет данных</string>
+    <string name="common_error">Ошибка</string>
+    <string name="common_success">Успешно</string>
+    <string name="common_confirm_delete">Подтвердите удаление</string>
+
+    <!-- Months -->
+    <string name="month_january">Январь</string>
+    <string name="month_february">Февраль</string>
+    <string name="month_march">Март</string>
+    <string name="month_april">Апрель</string>
+    <string name="month_may">Май</string>
+    <string name="month_june">Июнь</string>
+    <string name="month_july">Июль</string>
+    <string name="month_august">Август</string>
+    <string name="month_september">Сентябрь</string>
+    <string name="month_october">Октябрь</string>
+    <string name="month_november">Ноябрь</string>
+    <string name="month_december">Декабрь</string>
+</resources>

@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Kotlin
+.kotlin/
+
+# Build outputs (APKs go to Releases)
+*.apk
+*.aab
+
+# Secrets / signing
+*.jks
+*.keystore
+keystores/
+
+.DS_Store
